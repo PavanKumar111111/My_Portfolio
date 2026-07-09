@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pavan Kumar Gandavarapu - Software Developer & Quality Analyst Portfolio. Explore projects, skills, education, and achievements.">
+  <title>Pavan Kumar Gandavarapu | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress-container">
+    <div class="scroll-progress-bar"></div>
+  </div>
+
+  <!-- Background Floating Blur Blobs -->
+  <div class="bg-blob-container">
+    <div class="bg-blob blob-1"></div>
+    <div class="bg-blob blob-2"></div>
+    <div class="bg-blob blob-3"></div>
+  </div>
+
+  <!-- Background Grid Mesh -->
+  <div class="bg-grid"></div>
+
+  <!-- Header Navigation -->
+  <header>
+    <div class="container">
+      <nav>
+        <a href="#hero" class="logo">
+          PAVAN KUMAR <span class="logo-dot"></span>
+        </a>
+        <ul class="nav-links">
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#internships">Internships</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="mobile-menu-btn" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <!-- Animated Particle Canvas -->
+      <canvas id="hero-particles" class="hero-particles-canvas"></canvas>
+      <div class="container hero-wrapper">
+        <div class="hero-content">
+          <div class="hero-tag">Available for Opportunities</div>
+          <h1>Hi, I'm <br>Pavan Kumar</h1>
+          <div class="hero-typing" data-roles='["Software Developer", "Quality Analyst", "Prompt Engineer", "Web Developer"]'></div>
+          <p class="hero-desc">
+            Aspiring developer with solid skills in Java, HTML, CSS, JavaScript, and Python. Passionate about coding, testing, debugging, and building intelligent software solutions.
+          </p>
+          <div class="hero-cta">
+            <a href="#contact" class="btn btn-primary">
+              Get in Touch 
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+            <a href="#projects" class="btn btn-secondary">View Work</a>
+          </div>
+          <div class="hero-socials">
+            <a href="http://www.linkedin.com/in/gpk112006" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="https://github.com/PavanKumar111111" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+            </a>
+            <a href="mailto:pavankumargandavarapu@gmail.com" class="social-link" aria-label="Email">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="profile-image-wrapper">
+            <img src="profile.jpg" alt="Pavan Kumar Gandavarapu" class="profile-img">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Overview</span>
+          <h2 class="section-title">About Me</h2>
+        </div>
+        
+        <div class="about-grid">
+          <div class="about-details reveal">
+            <p class="about-text">
+              I am an energetic and results-driven individual pursuing my Bachelor's degree. I have a strong foundation in software development practices, test methodologies, and cloud-native solutions. My focus is on writing clean, efficient code and executing rigorous validation checks to ensure high-quality software output.
+            </p>
+            
+            <h3 style="margin-top: 1rem; margin-bottom: 0.5rem; font-family: var(--font-heading);">Education</h3>
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-meta">2023 – 2027</div>
+                <h4 class="timeline-title">Bachelor's Degree</h4>
+                <p class="timeline-desc">Narayana Engineering College • SGPA: 9.3</p>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-meta">2021 – 2023</div>
+                <h4 class="timeline-title">Intermediate (MPC)</h4>
+                <p class="timeline-desc">Krishna Chaitanya Junior College • Score: 91.6%</p>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-meta">2020 – 2021</div>
+                <h4 class="timeline-title">SSC (Secondary School Certificate)</h4>
+                <p class="timeline-desc">ZPHS • Score: 98%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-achievements reveal">
+            <h3 style="margin-bottom: 1.5rem; font-family: var(--font-heading);">Key Achievements</h3>
+            
+            <div class="achievement-card">
+              <div class="achievement-icon" style="width: 64px; height: 48px; padding: 0; overflow: hidden; border-radius: 8px; flex-shrink: 0;">
+                <img src="ambassador.png" alt="Google Student Ambassador - Certificate of Completion" class="project-img-cover" style="width: 100%; height: 100%; object-fit: cover;">
+              </div>
+              <div class="achievement-content">
+                <h4>Google Student Ambassador Lead</h4>
+                <p>Initiating, marketing, and conducting educational awareness programs for students.</p>
+              </div>
+            </div>
+
+            <div class="achievement-card">
+              <div class="achievement-icon" style="width: 64px; height: 48px; padding: 0; overflow: hidden; border-radius: 8px; flex-shrink: 0;">
+                <img src="solution_challenge.png" alt="GDG on Campus Solution Challenge - Certificate of Achievement" class="project-img-cover" style="width: 100%; height: 100%; object-fit: cover;">
+              </div>
+              <div class="achievement-content">
+                <h4>Solution Challenge 2025 Hackathon</h4>
+                <p>Earned an achievement certificate awarded by GDGoC for building impactful solutions.</p>
+              </div>
+            </div>
+
+            <div class="achievement-card">
+              <div class="achievement-icon" style="width: 64px; height: 48px; padding: 0; overflow: hidden; border-radius: 8px; flex-shrink: 0;">
+                <img src="web_dev_cert.png" alt="Web Development with MERN Stack - Certificate of Achievement" class="project-img-cover" style="width: 100%; height: 100%; object-fit: cover;">
+              </div>
+              <div class="achievement-content">
+                <h4>Web Development Achievement</h4>
+                <p>Completed Web Development with 96% score (Grade A+) by EduBridge in partnership with Nirmaan.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" style="background-color: var(--color-bg-alt);">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Competencies</span>
+          <h2 class="section-title">Skills & Expertise</h2>
+        </div>
+
+        <div class="skills-grid reveal">
+          <!-- Category 1 -->
+          <div class="skills-category">
+            <h3>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code-2" style="margin-right: 8px;"><path d="m18 16 4-4-4-4"/><path d="m6 8-4 4 4 4"/><path d="m14.5 4-5 16"/></svg>
+              Proficient
+            </h3>
+            <div class="skills-list">
+              <span class="skill-tag">Java</span>
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">Prompt Engineering</span>
+            </div>
+          </div>
+
+          <!-- Category 2 -->
+          <div class="skills-category">
+            <h3>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-terminal" style="margin-right: 8px;"><polyline points="4 17 10 11 4 5"/><line x1="12" x2="20" y1="19" y2="19"/></svg>
+              Foundational
+            </h3>
+            <div class="skills-list">
+              <span class="skill-tag">C</span>
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">React JS</span>
+              <span class="skill-tag">SQL</span>
+              <span class="skill-tag">Machine Learning</span>
+            </div>
+          </div>
+
+          <!-- Category 3 -->
+          <div class="skills-category">
+            <h3>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cloud" style="margin-right: 8px;"><path d="M17.5 19A3.5 3.5 0 0 0 21 15.5c0-2.79-2.54-4.5-5-4.5-.42-1.04-1.21-1.88-2.22-2.39S11.65 8 10.5 8a5.5 5.5 0 0 0-5.5 5.5C5 13.52 5.02 13.62 5.04 13.73A3.5 3.5 0 0 0 2 17a3 3 0 0 0 3 3h12.5a3.5 3.5 0 0 0 0-7z"/></svg>
+              Cloud
+            </h3>
+            <div class="skills-list">
+              <span class="skill-tag">Google Cloud (GCP)</span>
+              <span class="skill-tag">AWS Basics</span>
+            </div>
+          </div>
+
+          <!-- Category 4 -->
+          <div class="skills-category">
+            <h3>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wrench" style="margin-right: 8px;"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+              Tools & OS
+            </h3>
+            <div class="skills-list">
+              <span class="skill-tag">GitHub</span>
+              <span class="skill-tag">VS Code</span>
+              <span class="skill-tag">Git</span>
+            </div>
+          </div>
+
+          <!-- Category 5 -->
+          <div class="skills-category">
+            <h3>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles" style="margin-right: 8px;"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/><path d="m5 3 1 2.5L8.5 6 6 7 5 9.5 4 7 1.5 6 4 5.5z"/><path d="m19 17 1 2.5 2.5.5-2.5 1-1 2.5-1-2.5-2.5-1 2.5-1z"/></svg>
+              AI Tools
+            </h3>
+            <div class="skills-list">
+              <span class="skill-tag">Antigravity</span>
+              <span class="skill-tag">Gemini</span>
+              <span class="skill-tag">Claude</span>
+              <span class="skill-tag">ChatGPT</span>
+              <span class="skill-tag">Copilot</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Internships Section -->
+    <section id="internships">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Experience</span>
+          <h2 class="section-title">Internships</h2>
+        </div>
+
+        <div class="internships-list reveal">
+          <!-- Internship 1 -->
+          <div class="internship-card">
+            <div class="internship-header" style="display: flex; gap: 1.5rem; align-items: center; margin-bottom: 1.5rem;">
+              <div class="internship-cert-thumb" style="width: 80px; height: 60px; padding: 0; overflow: hidden; border-radius: 8px; flex-shrink: 0; border: 1px solid var(--color-glass-border); box-shadow: 0 5px 15px rgba(0,0,0,0.2);">
+                <img src="internship.png" alt="EduSkills Academy Prompt Engineering Virtual Internship - Certificate" class="project-img-cover" style="width: 100%; height: 100%; object-fit: cover;">
+              </div>
+              <div style="flex-grow: 1; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; width: 100%;">
+                <div class="internship-title">
+                  <h3>Prompt Engineering for AI (Virtual Internship)</h3>
+                  <span class="internship-company">EduSkills Academy</span>
+                </div>
+                <div class="internship-meta" style="text-align: right;">
+                  <div class="internship-date">8-Week Program (June 2026)</div>
+                  <div class="internship-id">Credential ID: 2026-C99989D41B</div>
+                </div>
+              </div>
+            </div>
+            <ul class="internship-bullets">
+              <li>Mastered core prompting techniques, context steering, prompt structures, and AI safety controls.</li>
+              <li>Explored model integrations using OpenAI API and Hugging Face Transformers for custom application logic.</li>
+              <li>Created optimized prompts for text generation, code generation, debugging, and conversational agent architectures.</li>
+              <li>Applied advanced generative capabilities for image synthesis (DALL-E & Midjourney) and data visualization scripts.</li>
+              <li><strong>Capstone Project:</strong> Designed and implemented an AI-Powered Content Generation & Analysis Platform.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">My Work</span>
+          <h2 class="section-title">Featured Projects</h2>
+        </div>
+
+        <div class="projects-carousel-container reveal">
+          <div class="projects-wrapper">
+            <!-- Project 1 -->
+            <div class="project-card">
+              <div class="project-header-visual" style="padding: 0;">
+                <img src="agritech.png" alt="AgriTech Project Showcase" class="project-img-cover">
+              </div>
+              <div class="project-info">
+                <span class="project-meta">Jan 2025 – Mar 2025</span>
+                <h3>AI-Driven Agricultural Platform</h3>
+                <div class="project-desc">
+                  <ul>
+                    <li>Led a 4-member team to construct an agricultural platform prototype helping small/marginal farmers.</li>
+                    <li>Delivered real-time analytics and insights on soil health, weather forecasts, and market trends.</li>
+                    <li>Integrated an intelligent AI Chatbot to guide users on farming practices and government schemes.</li>
+                  </ul>
+                </div>
+                <div class="project-tech">
+                  <span class="tech-pill">Python</span>
+                  <span class="tech-pill">AI Chatbot</span>
+                  <span class="tech-pill">Data Analytics</span>
+                  <span class="tech-pill">Team Lead</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+              <div class="project-header-visual" style="padding: 0; position: relative;">
+                <div class="project-slides">
+                  <img src="book1.png" alt="Book Inventory - Admin Dashboard" class="project-img-cover active">
+                  <img src="book2.png" alt="Book Inventory - Student Management" class="project-img-cover">
+                  <img src="book3.png" alt="Book Inventory - Recent Borrowing Activity" class="project-img-cover">
+                  <img src="book4.png" alt="Book Inventory - Library Search Catalog" class="project-img-cover">
+                </div>
+                <div class="slide-dots">
+                  <span class="slide-dot active" data-slide-index="0"></span>
+                  <span class="slide-dot" data-slide-index="1"></span>
+                  <span class="slide-dot" data-slide-index="2"></span>
+                  <span class="slide-dot" data-slide-index="3"></span>
+                </div>
+              </div>
+              <div class="project-info">
+                <span class="project-meta">Academic Project</span>
+                <h3>Book Inventory Management</h3>
+                <div class="project-desc">
+                  <ul>
+                    <li>Created a role-based book inventory management database with secure Student and Admin portals.</li>
+                    <li>Integrated the Twilio API to automatically dispatch overdue notices and alerts via SMS.</li>
+                    <li>Added user impersonation, instant filter search, automated fine logs, and solid unit testing.</li>
+                  </ul>
+                </div>
+                <div class="project-tech">
+                  <span class="tech-pill">Python</span>
+                  <span class="tech-pill">Django</span>
+                  <span class="tech-pill">SQLite</span>
+                  <span class="tech-pill">Twilio API</span>
+                  <span class="tech-pill">Unit Testing</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+              <div class="project-header-visual">
+                <div class="project-icon-wrapper">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-leaf"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 3.58 1 9.8a7 7 0 0 1-9 8.2z"/><path d="M9 22v-4h-2a3 3 0 0 1-3-3V8"/></svg>
+                </div>
+              </div>
+              <div class="project-info">
+                <span class="project-meta">Research Project</span>
+                <h3>Tomato Leaf Disease Classification</h3>
+                <div class="project-desc">
+                  <ul>
+                    <li>Developed a hybrid deep learning + machine learning framework to classify 10 tomato leaf disease categories.</li>
+                    <li>Extracted high-level discriminative features using pre-trained MobileNetV2 architecture, followed by PCA dimensionality reduction.</li>
+                    <li>Systematically evaluated 10 classifiers; SVM (RBF) achieved best overall metrics (~90.6% accuracy, 99.5% ROC-AUC).</li>
+                  </ul>
+                </div>
+                <div class="project-tech">
+                  <span class="tech-pill">Python</span>
+                  <span class="tech-pill">MobileNetV2</span>
+                  <span class="tech-pill">PCA</span>
+                  <span class="tech-pill">SVM</span>
+                  <span class="tech-pill">Scikit-Learn</span>
+                  <span class="tech-pill">TensorFlow</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Carousel Controls -->
+          <div class="certs-nav" style="margin-top: 2rem;">
+            <button class="certs-nav-btn" id="project-prev" aria-label="Previous projects">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-left"><path d="m15 18-6-6 6-6"/></svg>
+            </button>
+            <button class="certs-nav-btn" id="project-next" aria-label="Next projects">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right"><path d="m9 18 6-6-6-6"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" style="background-color: var(--color-bg-alt);">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Credentials</span>
+          <h2 class="section-title">Certifications</h2>
+        </div>
+
+        <div class="certs-carousel-container reveal">
+          <div class="certs-wrapper">
+            <!-- Cert 1 -->
+            <div class="cert-card">
+              <div class="cert-badge" style="width: 64px; height: 48px; padding: 0; overflow: hidden; border-radius: 8px; flex-shrink: 0; margin-bottom: 1.5rem;">
+                <img src="gcp_study_jams.png" alt="Google Cloud Study Jams '25 - Certificate of Completion" class="project-img-cover" style="width: 100%; height: 100%; object-fit: cover;">
+              </div>
+              <div class="cert-issuer">Google Cloud</div>
+              <h3>Google Cloud Study Jams</h3>
+              <p class="cert-details">Completed 19 Skill badges and Arcade Game in the Google Cloud platform during milestone-1 under GDG On-Campus NECN (2025).</p>
+            </div>
+
+            <!-- Cert 2 -->
+            <div class="cert-card">
+              <div class="cert-badge">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cpu"><rect width="16" height="16" x="4" y="4" rx="2"/><rect width="6" height="6" x="9" y="9" rx="1"/><path d="M9 1v3"/><path d="M15 1v3"/><path d="M9 20v3"/><path d="M15 20v3"/><path d="M20 9h3"/><path d="M20 15h3"/><path d="M1 9h3"/><path d="M1 15h3"/></svg>
+              </div>
+              <div class="cert-issuer">Scaler</div>
+              <h3>Prompt Engineering</h3>
+              <p class="cert-details">Verified certificate demonstrating proficiency in prompt structures, engineering techniques, and context steering.</p>
+            </div>
+
+            <!-- Cert 3 -->
+            <div class="cert-card">
+              <div class="cert-badge" style="width: 64px; height: 48px; padding: 0; overflow: hidden; border-radius: 8px; flex-shrink: 0; margin-bottom: 1.5rem;">
+                <img src="ai_essentials.png" alt="Google AI Essentials - Coursera Certification" class="project-img-cover" style="width: 100%; height: 100%; object-fit: cover;">
+              </div>
+              <div class="cert-issuer">Google & Coursera</div>
+              <h3>Google AI Essentials</h3>
+              <p class="cert-details">Acquired foundational AI expertise, learning to use generative AI tools to boost productivity, write prompts, and analyze data responsibly (Feb 2025).</p>
+            </div>
+          </div>
+
+          <!-- Carousel Controls -->
+          <div class="certs-nav">
+            <button class="certs-nav-btn" id="cert-prev" aria-label="Previous certificates">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-left"><path d="m15 18-6-6 6-6"/></svg>
+            </button>
+            <button class="certs-nav-btn" id="cert-next" aria-label="Next certificates">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right"><path d="m9 18 6-6-6-6"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Connection</span>
+          <h2 class="section-title">Get In Touch</h2>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <h3 style="font-family: var(--font-heading); margin-bottom: 1.5rem;">Contact Information</h3>
+            <p style="color: var(--color-text-muted); margin-bottom: 2rem;">
+              If you have any questions or would like to discuss working together, feel free to drop a message or reach out via email/LinkedIn/GitHub.
+            </p>
+            
+            <div class="contact-card">
+              <div class="contact-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              </div>
+              <div class="contact-details">
+                <h4>Email</h4>
+                <p><a href="mailto:pavankumargandavarapu@gmail.com">pavankumargandavarapu@gmail.com</a></p>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div class="contact-details">
+                <h4>Phone</h4>
+                <p><a href="tel:+917995330471">+91 7995330471</a></p>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+              </div>
+              <div class="contact-details">
+                <h4>LinkedIn</h4>
+                <p><a href="http://www.linkedin.com/in/gpk112006" target="_blank" rel="noopener noreferrer">gpk112006</a></p>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+              </div>
+              <div class="contact-details">
+                <h4>GitHub</h4>
+                <p><a href="https://github.com/PavanKumar111111" target="_blank" rel="noopener noreferrer">PavanKumar111111</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form reveal">
+            <h3 style="font-family: var(--font-heading); margin-bottom: 2rem;">Send a Message</h3>
+            <form id="portfolioContactForm">
+              <div class="form-group">
+                <label for="formName">Full Name</label>
+                <input type="text" id="formName" class="form-control" placeholder="Enter your name" required>
+              </div>
+              <div class="form-group">
+                <label for="formEmail">Email Address</label>
+                <input type="email" id="formEmail" class="form-control" placeholder="Enter your email" required>
+              </div>
+              <div class="form-group">
+                <label for="formMessage">Message</label>
+                <textarea id="formMessage" class="form-control" placeholder="Type your message here..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center; margin-top: 1rem;">
+                Send Message 
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-send" style="margin-left: 8px;"><line x1="22" x2="11" y1="2" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              </button>
+              <div id="formStatus" class="form-status"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-wrapper">
+      <p class="copyright">
+        &copy; 2026 Pavan Kumar Gandavarapu. All rights reserved.
+      </p>
+      <div class="hero-socials">
+        <a href="http://www.linkedin.com/in/gpk112006" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a href="https://github.com/PavanKumar111111" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+        </a>
+        <a href="mailto:pavankumargandavarapu@gmail.com" class="social-link" aria-label="Email">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal for Images -->
+  <div id="lightboxModal" class="lightbox-modal">
+    <span class="lightbox-close">&times;</span>
+    <div class="lightbox-container">
+      <div class="lightbox-gallery" id="lightboxGallery">
+        <!-- JS will dynamically populate image elements here -->
+      </div>
+      <!-- Gallery navigation arrows -->
+      <button class="gallery-nav-btn prev" id="galleryPrev" aria-label="Previous image">&lsaquo;</button>
+      <button class="gallery-nav-btn next" id="galleryNext" aria-label="Next image">&rsaquo;</button>
+    </div>
+    <div id="lightboxCaption" class="lightbox-caption"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
